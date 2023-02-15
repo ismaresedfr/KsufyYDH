@@ -8,17 +8,6 @@ body:
       description: Please provide the python version, browser version and other relevant information about your environment.
     validations:
       required: true
-  - type: dropdown
-    attributes:
-      label: Which area(s) of the code does the issue occur in?
-      multiple: true
-      options:
-        - 'Website'
-        - 'Worker'
-        - 'Api'
-        - 'Mailer'
-        - 'Webhook'
-        - 'Other'
   - type: textarea
     attributes:
       label: To Reproduce
